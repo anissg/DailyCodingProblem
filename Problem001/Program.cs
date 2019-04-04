@@ -21,7 +21,7 @@ namespace Problem001
             Console.WriteLine(UpToK(input, k));
         }
 
-        private static bool UpToK(int[] input, int k)
+        static bool UpToK(int[] input, int k)
         {
             HashSet<int> rest = new HashSet<int>();
             foreach (int n in input)
